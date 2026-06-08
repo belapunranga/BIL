@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,700&display=swap');
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  
+  --color-editorial-cream: #F9F8F3;
+  --color-editorial-egg: #F2F0E9;
+  --color-editorial-ink: #1A1A1A;
+  --color-editorial-rust: #C2410C;
+  --color-editorial-accent: #E2E0D5;
+  --color-editorial-white: #FCFBF7;
+}
+
+/* Custom Scrollbars to keep columns clean and aligned */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #1A1A1A;
+  border-radius: 9999px;
+}
+
+.dark .custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #F9F8F3;
+}
+
+/* Base style resets if needed with modern typography rules */
+p {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
