@@ -5,7 +5,7 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
-    base: '/BIL-ASAT-2026/',
+    base: '/BIL/',
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
