@@ -1,0 +1,6 @@
+{
+  "name": "Pembelajaran Bahasa Inggris Lanjutan UTBK",
+  "description": "Platform persiapan ujian Bahasa Inggris Lanjutan level B2-C1 CEFR dengan materi lengkap, bank 250+ kosakata, simulasi ujian UTBK 40 soal interaktif, pembahasan komprehensif, dan analisis kritis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
